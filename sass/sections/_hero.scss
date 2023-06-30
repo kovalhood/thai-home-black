@@ -1,0 +1,93 @@
+.hero{
+    padding-top: 175px;
+    padding-bottom: 140px;
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 215px;
+        padding-bottom: 195px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 195px;
+        padding-bottom: 165px;
+    }
+}
+
+.hero-background__wrapper{
+    position: absolute;
+    top: 0;
+    padding: 15px 15px 0 15px;
+    width: 100%;
+    height: 772px;
+
+    @media screen and (min-width: $mobile) {
+        padding: 25px 25px 0 25px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        height: 810px;
+        padding: 20px 20px 0 20px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        height: 820px;
+        padding: 30px 30px 0 30px;
+    }
+}
+
+.hero-background{
+    width: 100%;
+    height: 100%;
+    background: url('../images/hero/hero-mob.jpg'), lightgray -237.361px 0px / 192.753% 100% no-repeat;
+    background-size: 101%;
+    background-position: center;
+
+    @media screen and (min-width: $tablet) {
+        background: url('../images/hero/hero-tab.jpg'), lightgray -237.361px 0px / 192.753% 100% no-repeat;
+        background-size: 101%;
+    }
+
+    @media screen and (min-width: $desktop) {
+        background: url('../images/hero/hero-desk.jpg'), lightgray -237.361px 0px / 192.753% 100% no-repeat;
+        background-size: 101%;
+    }
+}
+
+.hero__title{
+    font-size: 27px;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 39px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 48px;
+    }
+}
+
+.hero__text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    &--highlight{
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}

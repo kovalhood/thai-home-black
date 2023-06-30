@@ -20,21 +20,24 @@
 
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <p class="logo">
           <svg class="logo__icon" aria-label="logo" width="51" height="24">
             <use href="./images/icons.svg#logo"></use>
           </svg>
           THAI HOME
         </p>
+
         <div class="header__controls">
           <nav class="header-navigation">
             <ul class="header-navigation__list list">
               <li class="header-navigation__item">
-                <a href="#" class="header-navigation__link link">About Me</a>
+                <a href="#who-am-i" class="header-navigation__link link"
+                  >About Me</a
+                >
               </li>
               <li class="header-navigation__item">
-                <a href="#" class="header-navigation__link link"
+                <a href="#purchase" class="header-navigation__link link"
                   >About the project</a
                 >
               </li>
@@ -46,10 +49,13 @@
         </div>
       </div>
     </header>
+
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="hero-background__wrapper">
           <div class="hero-background"></div>
+        </div>
+        <div class="container">
           <h1 class="hero__title">
             How to buy your dream apartment in Bangkok within 20 days
           </h1>
@@ -75,10 +81,24 @@
 
       <section class="section">
         <div class="container">
-          <div class="numbers__image-wrapper">
+          <div class="numbers__image-wrapper--mob">
             <img
               class="numbers__image"
-              src="./images/thai-home-in-numbers.jpg"
+              src="./images/thai-home-in-numbers/thai-home-in-numbers-mob.jpg"
+              alt="Thai Home in numbers"
+            />
+          </div>
+          <div class="numbers__image-wrapper--tab">
+            <img
+              class="numbers__image"
+              src="./images/thai-home-in-numbers/thai-home-in-numbers-tab.jpg"
+              alt="Thai Home in numbers"
+            />
+          </div>
+          <div class="numbers__image-wrapper--desk">
+            <img
+              class="numbers__image"
+              src="./images/thai-home-in-numbers/thai-home-in-numbers-desk.jpg"
               alt="Thai Home in numbers"
             />
           </div>
@@ -112,7 +132,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section id="who-am-i" class="section">
         <div class="container">
           <div class="who-am-i__text-wrapper">
             <div>
@@ -155,22 +175,50 @@
               </button>
             </div>
           </div>
-          <div class="who-am-i__image-wrapper">
+          <div class="who-am-i__image-wrapper--mob">
             <img
               class="who-am-i__image"
-              src="./images/who-am-i.jpg"
+              src="./images/who-am-i/who-am-i-mob.jpg"
+              alt="Who am I"
+            />
+          </div>
+          <div class="who-am-i__image-wrapper--tab">
+            <img
+              class="who-am-i__image"
+              src="./images/who-am-i/who-am-i-tab.jpg"
+              alt="Who am I"
+            />
+          </div>
+          <div class="who-am-i__image-wrapper--desk">
+            <img
+              class="who-am-i__image"
+              src="./images/who-am-i/who-am-i-desk.jpg"
               alt="Who am I"
             />
           </div>
         </div>
       </section>
 
-      <section class="section section--no-top-padding">
+      <section id="purchase" class="section section--no-top-padding">
         <div class="container">
-          <div class="purchase__image-wrapper">
+          <div class="purchase__image-wrapper--mob">
             <img
               class="purchase__image"
-              src="./images/how-to-purchase.jpg"
+              src="./images/how-to-purchase/how-to-purchase-mob.jpg"
+              alt="How to purchase the property in Bangkok"
+            />
+          </div>
+          <div class="purchase__image-wrapper--tab">
+            <img
+              class="purchase__image"
+              src="./images/how-to-purchase/how-to-purchase-tab.jpg"
+              alt="How to purchase the property in Bangkok"
+            />
+          </div>
+          <div class="purchase__image-wrapper--desk">
+            <img
+              class="purchase__image"
+              src="./images/how-to-purchase/how-to-purchase-desk.jpg"
               alt="How to purchase the property in Bangkok"
             />
           </div>
@@ -229,10 +277,24 @@
               schedule a consultation
             </button>
           </div>
-          <div class="schedule__image-wrapper">
+          <div class="schedule__image-wrapper--mob">
             <img
               class="schedule__image"
-              src="./images//looking-for-a-condo.jpg"
+              src="./images/looking-for-a-condo/looking-for-a-condo-mob.jpg"
+              alt="Looking for a condo in Bangkok?"
+            />
+          </div>
+          <div class="schedule__image-wrapper--tab">
+            <img
+              class="schedule__image"
+              src="./images/looking-for-a-condo/looking-for-a-condo-tab.jpg"
+              alt="Looking for a condo in Bangkok?"
+            />
+          </div>
+          <div class="schedule__image-wrapper--desk">
+            <img
+              class="schedule__image"
+              src="./images/looking-for-a-condo/looking-for-a-condo-desk.jpg"
               alt="Looking for a condo in Bangkok?"
             />
           </div>
