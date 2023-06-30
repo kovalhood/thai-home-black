@@ -89,7 +89,6 @@
 
     &--highlight{
         font-weight: 700;
-        text-decoration: underline;
     }
 }
 
@@ -105,7 +104,7 @@
     margin-bottom: 20px;
     color: $black-color;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
 
     @media screen and (min-width: $tablet) {
@@ -119,6 +118,5 @@
 
     &--highlight{
         font-weight: 700;
-        text-decoration: underline;
     }
 }

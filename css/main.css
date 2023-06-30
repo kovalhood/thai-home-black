@@ -381,7 +381,7 @@ address {
 
 .hero__text {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   margin-bottom: 20px;
 }
@@ -400,7 +400,6 @@ address {
 }
 .hero__text--highlight {
   font-weight: 700;
-  text-decoration: underline;
 }
 
 .numbers-container {
@@ -540,7 +539,7 @@ address {
 .numbers__description {
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 @media screen and (min-width: 768px) {
@@ -672,7 +671,7 @@ address {
 .who-am-i__description {
   color: black;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 @media screen and (min-width: 768px) {
@@ -689,7 +688,7 @@ address {
 .who-am-i__text {
   color: #1F1F1F;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -708,7 +707,6 @@ address {
 }
 .who-am-i__text--highlight {
   font-weight: 700;
-  text-decoration: underline;
 }
 
 .purchase-container {
@@ -828,7 +826,6 @@ address {
 }
 .purchase__subheading--highlight {
   font-weight: 700;
-  text-decoration: underline;
 }
 
 .purchase__description-wrapper {
@@ -844,7 +841,7 @@ address {
   margin-bottom: 20px;
   color: #1F1F1F;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 @media screen and (min-width: 768px) {
@@ -860,7 +857,6 @@ address {
 }
 .purchase__text--highlight {
   font-weight: 700;
-  text-decoration: underline;
 }
 
 .schedule-container {
@@ -961,7 +957,7 @@ address {
   margin-top: 30px;
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 @media screen and (min-width: 768px) {
@@ -979,5 +975,4 @@ address {
 }
 .schedule__text--highlight {
   font-weight: 700;
-  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
