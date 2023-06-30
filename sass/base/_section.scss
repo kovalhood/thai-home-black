@@ -1,23 +1,52 @@
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  @media screen and (min-width: $tablet) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
 
   @media screen and (min-width: $desktop) {
-      padding-top: 94px;
-      padding-bottom: 94px;
+      padding-top: 120px;
+      padding-bottom: 120px;
+  }
+
+  &--no-top-padding{
+    padding-top: 0;
   }
 }
 
-.section__title {
-  margin-bottom: 30px;
+.section__title--black {
   color: $black-color;
-  font-weight: 700;
-  font-size: 28px;
+  font-family: 'Unbounded', cursive;
+  font-weight: 600;
+  font-size: 27px;
   line-height: 1.17;
-  text-align: center;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $tablet) {
+      font-size: 39px;
+    }
 
   @media screen and (min-width: $desktop) {
-    margin-bottom: 50px;
-    font-size: 36px;
+    font-size: 48px;
+  }
+}
+
+.section__title--white {
+  color: $white-color;
+  font-family: 'Unbounded', cursive;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 1.17;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 39px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 48px;
   }
 }

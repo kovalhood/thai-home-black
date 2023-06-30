@@ -1,43 +1,44 @@
 .button {
   font-family: inherit;
-  letter-spacing: 0.03em;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: $main-border;
+  border-radius: 6px;
   cursor: pointer;
-  border: none;
-  border-radius: 4px;
+  transition: $main-transition;
 }
 
-.button__primary {
-  display: block;
-  margin: auto;
-  padding: 10px 0;
-  width: 200px;
+.button--text-white {
+  color: #181818;
   background-color: $accent-color;
-  color: $white-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    background-color: $accent-color-hover;
-  }
-
-  @media screen and (min-width: $desktop) {
-    display: inline-block;
-  }
-
-  &--center {
-    display: block;
-    margin: auto;
+    color: $white-color;
+    background-color: transparent;
   }
 }
 
-.button__icon {
-  margin-left: 4px;
-  vertical-align: middle;
-  fill: currentColor;
+.button--text-black {
+  color: #181818;
+  background-color: $accent-color;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+  }
+}
+
+.button--transparent {
+  color: $white-color;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    color: #181818;
+    background-color: $accent-color;
+  }
 }
