@@ -70,8 +70,8 @@ address {
     padding-bottom: 120px;
   }
 }
-.section--no-top-padding {
-  padding-top: 0;
+.section--no-bottom-padding {
+  padding-bottom: 0;
 }
 
 .section--white {
@@ -107,7 +107,7 @@ address {
 }
 @media screen and (min-width: 768px) {
   .section__title--white {
-    font-size: 39px;
+    font-size: 38px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -863,6 +863,55 @@ address {
   text-decoration: underline;
 }
 
+.schedule-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .schedule-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .schedule__text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 338px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .schedule__text-wrapper {
+    width: 575px;
+  }
+}
+
+.schedule__image-wrapper--mob {
+  width: 100%;
+  height: 395px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-top: 30px;
+}
 @media screen and (min-width: 768px) {
   .schedule__image-wrapper--mob {
     display: none;
@@ -875,6 +924,10 @@ address {
 @media screen and (min-width: 768px) {
   .schedule__image-wrapper--tab {
     display: block;
+    width: 338px;
+    height: 325px;
+    overflow: hidden;
+    border-radius: 6px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -889,5 +942,42 @@ address {
 @media screen and (min-width: 1200px) {
   .schedule__image-wrapper--desk {
     display: block;
+    width: 575px;
+    height: 352px;
+    overflow: hidden;
+    border-radius: 6px;
   }
+}
+
+.schedule__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  scale: 1.01;
+}
+
+.schedule__text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 768px) {
+  .schedule__text {
+    margin-top: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .schedule__text {
+    margin-bottom: 30px;
+    font-size: 20px;
+    width: 560px;
+  }
+}
+.schedule__text--highlight {
+  font-weight: 700;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */

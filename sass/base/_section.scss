@@ -12,8 +12,8 @@
       padding-bottom: 120px;
   }
 
-  &--no-top-padding{
-    padding-top: 0;
+  &--no-bottom-padding{
+    padding-bottom: 0;
   }
 }
 
@@ -47,7 +47,7 @@
   text-transform: uppercase;
 
   @media screen and (min-width: $tablet) {
-    font-size: 39px;
+    font-size: 38px;
   }
 
   @media screen and (min-width: $desktop) {
