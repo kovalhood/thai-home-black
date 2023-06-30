@@ -23,6 +23,7 @@ p {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -396,4 +397,120 @@ address {
 .hero__text--highlight {
   font-weight: 700;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .numbers__image-wrapper--mob {
+    display: none;
+  }
+}
+
+.numbers__image-wrapper--tab {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .numbers__image-wrapper--tab {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .numbers__image-wrapper--tab {
+    display: none;
+  }
+}
+
+.numbers__image-wrapper--desk {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .numbers__image-wrapper--desk {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .who-am-i__image-wrapper--mob {
+    display: none;
+  }
+}
+
+.who-am-i__image-wrapper--tab {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .who-am-i__image-wrapper--tab {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .who-am-i__image-wrapper--tab {
+    display: none;
+  }
+}
+
+.who-am-i__image-wrapper--desk {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .who-am-i__image-wrapper--desk {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .purchase__image-wrapper--mob {
+    display: none;
+  }
+}
+
+.purchase__image-wrapper--tab {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .purchase__image-wrapper--tab {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .purchase__image-wrapper--tab {
+    display: none;
+  }
+}
+
+.purchase__image-wrapper--desk {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .purchase__image-wrapper--desk {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .schedule__image-wrapper--mob {
+    display: none;
+  }
+}
+
+.schedule__image-wrapper--tab {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .schedule__image-wrapper--tab {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .schedule__image-wrapper--tab {
+    display: none;
+  }
+}
+
+.schedule__image-wrapper--desk {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .schedule__image-wrapper--desk {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

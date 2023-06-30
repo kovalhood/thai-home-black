@@ -1,0 +1,26 @@
+.numbers__image-wrapper--mob{
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+}
+
+.numbers__image-wrapper--tab{
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+        display: block;
+    }
+
+    @media screen and (min-width: $desktop) {
+        display: none;
+    }
+}
+
+.numbers__image-wrapper--desk{
+    display: none;
+    
+    @media screen and (min-width: $desktop) {
+        display: block;
+    }
+}
