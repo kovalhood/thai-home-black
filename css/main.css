@@ -460,7 +460,7 @@ address {
 @media screen and (min-width: 1200px) {
   .numbers__image-wrapper--desk {
     display: block;
-    width: 570px;
+    width: 575px;
     height: 900px;
     overflow: hidden;
     border-radius: 6px;
@@ -492,7 +492,7 @@ address {
 }
 @media screen and (min-width: 1200px) {
   .numbers__text-wrapper {
-    width: 580px;
+    width: 575px;
   }
 }
 
@@ -582,7 +582,7 @@ address {
 }
 @media screen and (min-width: 1200px) {
   .who-am-i__text-wrapper {
-    width: 570px;
+    width: 575px;
   }
 }
 
@@ -622,7 +622,7 @@ address {
 @media screen and (min-width: 1200px) {
   .who-am-i__image-wrapper--desk {
     display: block;
-    width: 570px;
+    width: 575px;
     height: 815px;
     overflow: hidden;
     border-radius: 6px;
@@ -711,6 +711,34 @@ address {
   text-decoration: underline;
 }
 
+.purchase-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+@media screen and (min-width: 768px) {
+  .purchase-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.purchase__image-wrapper--mob {
+  width: 100%;
+  height: 382px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-top: 30px;
+}
 @media screen and (min-width: 768px) {
   .purchase__image-wrapper--mob {
     display: none;
@@ -723,6 +751,10 @@ address {
 @media screen and (min-width: 768px) {
   .purchase__image-wrapper--tab {
     display: block;
+    width: 338px;
+    height: 702px;
+    overflow: hidden;
+    border-radius: 6px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -737,7 +769,98 @@ address {
 @media screen and (min-width: 1200px) {
   .purchase__image-wrapper--desk {
     display: block;
+    width: 575px;
+    height: 681px;
+    overflow: hidden;
+    border-radius: 6px;
   }
+}
+
+.purchase__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  scale: 1.01;
+}
+
+@media screen and (min-width: 768px) {
+  .purchase__text-wrapper {
+    width: 338px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .purchase__text-wrapper {
+    width: 575px;
+  }
+}
+
+.purchase__subheading {
+  margin-top: 10px;
+  color: #1F1F1F;
+  font-size: 18px;
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .purchase__subheading {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .purchase__subheading {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+}
+.purchase__subheading--highlight {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.purchase__description-wrapper {
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .purchase__description-wrapper {
+    margin-top: 0;
+  }
+}
+
+.purchase__text {
+  margin-bottom: 20px;
+  color: #1F1F1F;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 768px) {
+  .purchase__text {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .purchase__text {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+.purchase__text--highlight {
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
