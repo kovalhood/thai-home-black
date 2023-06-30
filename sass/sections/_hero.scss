@@ -64,10 +64,12 @@
 
     @media screen and (min-width: $tablet) {
         font-size: 39px;
+        width: 660px;
     }
 
     @media screen and (min-width: $desktop) {
         font-size: 48px;
+        width: 810px;
     }
 }
 
@@ -79,11 +81,13 @@
 
     @media screen and (min-width: $tablet) {
         font-size: 18px;
+        width: 485px;
     }
 
     @media screen and (min-width: $desktop) {
         font-size: 20px;
         margin-bottom: 30px;
+        width: 560px;
     }
 
     &--highlight{

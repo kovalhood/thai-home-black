@@ -1,6 +1,6 @@
 body {
   background-color: #181818;
-  color: #ffffff;
+  color: #F6F6F6;
   font-family: "Urbanist", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -369,11 +369,13 @@ address {
 @media screen and (min-width: 768px) {
   .hero__title {
     font-size: 39px;
+    width: 660px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 48px;
+    width: 810px;
   }
 }
 
@@ -386,12 +388,14 @@ address {
 @media screen and (min-width: 768px) {
   .hero__text {
     font-size: 18px;
+    width: 485px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero__text {
     font-size: 20px;
     margin-bottom: 30px;
+    width: 560px;
   }
 }
 .hero__text--highlight {
@@ -399,6 +403,33 @@ address {
   text-decoration: underline;
 }
 
+.numbers-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+@media screen and (min-width: 768px) {
+  .numbers-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.numbers__image-wrapper--mob {
+  width: 100%;
+  height: 321px;
+  overflow: hidden;
+  border-radius: 6px;
+}
 @media screen and (min-width: 768px) {
   .numbers__image-wrapper--mob {
     display: none;
@@ -411,6 +442,10 @@ address {
 @media screen and (min-width: 768px) {
   .numbers__image-wrapper--tab {
     display: block;
+    width: 338px;
+    height: 700px;
+    overflow: hidden;
+    border-radius: 6px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -425,9 +460,138 @@ address {
 @media screen and (min-width: 1200px) {
   .numbers__image-wrapper--desk {
     display: block;
+    width: 570px;
+    height: 900px;
+    overflow: hidden;
+    border-radius: 6px;
   }
 }
 
+.numbers__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  scale: 1.01;
+}
+
+@media screen and (min-width: 768px) {
+  .numbers__text-wrapper {
+    width: 338px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .numbers__text-wrapper {
+    width: 580px;
+  }
+}
+
+.numbers {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .numbers {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.numbers__item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #7D7D7D;
+}
+@media screen and (min-width: 1200px) {
+  .numbers__item {
+    padding-bottom: 30px;
+  }
+}
+
+.numbers__title {
+  font-size: 50px;
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .numbers__title {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .numbers__title {
+    font-size: 90px;
+  }
+}
+
+.numbers__description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 768px) {
+  .numbers__description {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .numbers__description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .who-am-i-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .who-am-i__text-wrapper {
+    width: 338px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .who-am-i__text-wrapper {
+    width: 570px;
+  }
+}
+
+.who-am-i__image-wrapper--mob {
+  width: 100%;
+  height: 370px;
+  overflow: hidden;
+  border-radius: 6px;
+}
 @media screen and (min-width: 768px) {
   .who-am-i__image-wrapper--mob {
     display: none;
@@ -440,6 +604,10 @@ address {
 @media screen and (min-width: 768px) {
   .who-am-i__image-wrapper--tab {
     display: block;
+    width: 338px;
+    height: 649px;
+    overflow: hidden;
+    border-radius: 6px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -454,7 +622,93 @@ address {
 @media screen and (min-width: 1200px) {
   .who-am-i__image-wrapper--desk {
     display: block;
+    width: 570px;
+    height: 815px;
+    overflow: hidden;
+    border-radius: 6px;
   }
+}
+
+.who-am-i__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  scale: 1.01;
+}
+
+.who-am-i {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .who-am-i {
+    margin-bottom: 0;
+  }
+}
+
+.who-am-i__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #7D7D7D;
+}
+.who-am-i__item:not(:first-child) {
+  padding-top: 20px;
+}
+
+.who-am-i__bullet {
+  margin-right: 20px;
+  color: #1F1F1F;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.who-am-i__description {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 768px) {
+  .who-am-i__description {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .who-am-i__description {
+    font-size: 20px;
+  }
+}
+
+.who-am-i__text {
+  color: #1F1F1F;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .who-am-i__text {
+    font-size: 20px;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .who-am-i__text {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+}
+.who-am-i__text--highlight {
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
