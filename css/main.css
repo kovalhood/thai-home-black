@@ -1,6 +1,6 @@
 body {
-  background-color: #ffffff;
-  color: #1F1F1F;
+  background-color: #181818;
+  color: #ffffff;
   font-family: "Urbanist", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -73,6 +73,10 @@ address {
   padding-top: 0;
 }
 
+.section--white {
+  background-color: #ffffff;
+}
+
 .section__title--black {
   color: #1F1F1F;
   font-family: "Unbounded", cursive;
@@ -112,8 +116,8 @@ address {
 }
 
 .container {
-  padding-left: 34px;
-  padding-right: 34px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
 }
