@@ -4,11 +4,17 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding: 15px 30px;
+  width: 100%;
+  padding: 15px 20px;
   border: $main-border;
   border-radius: 6px;
   cursor: pointer;
   transition: $main-transition;
+
+  @media screen and (min-width: $mobile) {
+    width: unset;
+    padding: 15px 30px;
+  }
 }
 
 .button--text-white {
